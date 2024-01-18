@@ -1,42 +1,54 @@
-#nav_header{
-    height: ;
-    background-color: aquamarine;
-    padding: 1%;
+/*Classe Utilizzata per centrare tutti gli elementi*/
+.centered {
+    display: flex;
     padding-left: 10%;
     padding-right: 10%;
 }
 
-
-.nav_bar {
-    padding-top: 1%;
-    background-color: orange;
-    display: flex;
-    justify-content: space-around;
+body {
+    margin: 0;
 }
 
-#banner_header{
-    background-color: blue;
-    padding: 20%;
-    padding-top: 10%;
-    padding-bottom: 10%;;
+
+#nav_header {
+    background-color: #add8e6;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.nav_bar {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#banner_header {
+    background-color: #00008b;
+    padding: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    ;
 }
 
 .banner {
-    background-color: pink;
-    height: 140px;
+    background-color: #ee82ee;
+    height: 160px;
 }
 
-.main_containter {
-    display: flex;
-    padding: 10%;
+#main_containter {
+    display: flex;;
     height: 200px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-.main_containter2 {
-    display: flex;
-    padding: 10%;
+#main_containter2 {
+    display: flex;;
     height: 200px;
-    background-color: grey;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color:#d3d3d3;
 }
 
 #site_main {
@@ -57,12 +69,9 @@
 }
 
 
-
-
-
-
-body {
-    margin: 0;
+#site_down{
+    background-color: green;
+    width: 100%;
 }
 
 #site_footer {
