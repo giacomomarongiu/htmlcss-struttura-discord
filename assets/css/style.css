@@ -10,7 +10,9 @@ body {
 }
 
 
-#nav_header {
+/*Header Things - One Container*/
+
+#nav_container {
     background-color: #add8e6;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -20,10 +22,11 @@ body {
     background-color: orange;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 
-#banner_header {
+#banner_container {
     background-color: #00008b;
     padding: 25%;
     padding-top: 5%;
@@ -36,7 +39,7 @@ body {
     height: 160px;
 }
 
-#main_containter {
+#m_containter {
     display: flex;
     ;
     height: 200px;
@@ -44,27 +47,26 @@ body {
     padding-bottom: 5%;
 }
 
-#main_containter2 {
+#m_containter2 {
     display: flex;
-    ;
     height: 200px;
     padding-top: 5%;
     padding-bottom: 5%;
     background-color: #d3d3d3;
 }
 
-#site_main {
+#site_m{
     background-color: #1e90ff;
     width: 65%;
 }
 
 
-#site_aside {
+#site_a {
     background-color: #ffc0cb;
     width: 35%;
 }
 
-#site_aside2 {
+#site_a2 {
     background-color: #ffc0cb;
     width: 35%;
     order: -1;
