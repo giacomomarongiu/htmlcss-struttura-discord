@@ -1,3 +1,29 @@
+
+.site_header{
+    background-color: blue;
+    height: 100px;
+}
+
+#site_main{
+    background-color: brown;
+    height: 500px;
+}
+
+#site_footer{
+    background-color: chartreuse;
+    height: 100px;
+}
+
+#site_aside{
+    background-color: chocolate;
+    height: 100px;
+}
+
+.main_containter{
+    display: flex;
+}
+
 body{
     background-color: aqua;
+    margin:0;
 }
