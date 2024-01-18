@@ -1,29 +1,52 @@
-
-.site_header{
-    background-color: blue;
-    height: 100px;
+#nav_header{
+    height: ;
+    background-color: aquamarine;
+    padding: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-#site_main{
+
+.nav_bar {
+    padding-top: 1%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+}
+
+#banner_header{
+    background-color: blue;
+    padding: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;;
+}
+
+.banner {
+    background-color: pink;
+    height: 140px;
+}
+
+
+#site_main {
     background-color: brown;
     height: 500px;
 }
 
-#site_footer{
-    background-color: chartreuse;
-    height: 100px;
-}
 
-#site_aside{
+#site_aside {
     background-color: chocolate;
     height: 100px;
 }
 
-.main_containter{
+.main_containter {
     display: flex;
 }
 
-body{
-    background-color: aqua;
-    margin:0;
+body {
+    margin: 0;
+}
+
+#site_footer {
+    background-color: chartreuse;
+    height: 100px;
 }
