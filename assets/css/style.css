@@ -52,29 +52,41 @@ body {
 }
 
 #site_main {
-    background-color: brown;
+    background-color: #1e90ff ;
     width: 65%;
 }
 
 
 #site_aside {
-    background-color: chocolate;
+    background-color: #ffc0cb;
     width: 35%;
 }
 
 #site_aside2 {
-    background-color: chocolate;
+    background-color: #ffc0cb;
     width: 35%;
     order: -1;
 }
-
 
 #site_down{
     background-color: green;
     width: 100%;
 }
 
+#footer_container{
+    display: flex;;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 #site_footer {
+    display: flex;
+    justify-content: end;
     background-color: chartreuse;
     height: 100px;
+}
+
+#footer_column{
+    padding: 2%;
+    background-color: aquamarine;
 }
