@@ -98,19 +98,18 @@ body {
     align-items: stretch;
 }
 
-#site_footer_line {
-    display: flex;
-    justify-content: space-between;
+#site_footer_line{
     background-color: #23272a;
 }
 
-
-#footer_bottom {
-    background-color: #ee82ee;
-    width: 50%;
+#site_footer_line_container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7fffd4;
+    width: 100%;
 }
 
-#footer_bottom1 {
+#footer_bottom{
     background-color: #ee82ee;
-    width: 50%;
+
 }
