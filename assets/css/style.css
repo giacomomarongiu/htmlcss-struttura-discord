@@ -16,9 +16,9 @@
 
 #banner_header{
     background-color: blue;
-    padding: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;;
+    padding: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;;
 }
 
 .banner {
@@ -26,21 +26,40 @@
     height: 140px;
 }
 
+.main_containter {
+    display: flex;
+    padding: 10%;
+    height: 200px;
+}
+
+.main_containter2 {
+    display: flex;
+    padding: 10%;
+    height: 200px;
+    background-color: grey;
+}
 
 #site_main {
     background-color: brown;
-    height: 500px;
+    width: 65%;
 }
 
 
 #site_aside {
     background-color: chocolate;
-    height: 100px;
+    width: 35%;
 }
 
-.main_containter {
-    display: flex;
+#site_aside2 {
+    background-color: chocolate;
+    width: 35%;
+    order: -1;
 }
+
+
+
+
+
 
 body {
     margin: 0;
