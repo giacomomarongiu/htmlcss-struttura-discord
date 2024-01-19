@@ -177,6 +177,9 @@ body {
 #bottom_button{
     background-color: #8ea1e1;
     order: -1;
+    padding-left: 6%;
+    padding-right: 6%;
+    color: white;
 }
 
 /*End of the Main*/
@@ -187,18 +190,19 @@ body {
     display: flex;
     justify-content: end;
     background-color: #23272a;
+    color: #7289da;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
 .footer_column {
-    background-color: #20b2aa;
+
     height: 150px;
     width: 20%;
 }
 
 #footer_column2 {
-    background-color: #f08080;
+
     order: -1;
     width: 30%;
     align-items: stretch;
