@@ -163,10 +163,22 @@ body {
 
 
 /*Used square_containter2 for the backgroud*/
-#site_down {
-    background-color: green;
-    width: 100%;
+.reverse {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
+#item_4{
+    font-weight: bold;
+}
+
+#bottom_button{
+    background-color: #8ea1e1;
+    order: -1;
+}
+
 /*End of the Main*/
 
 
