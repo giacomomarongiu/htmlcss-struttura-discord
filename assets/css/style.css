@@ -56,11 +56,27 @@ body {
 /*Central banner*/
 #banner_container {
     background-image: url(../img/jumbo.png);
-    padding: 50%;
-    padding-top: 5%;
+    padding-bottom: 50%;
+    padding-top: 1px;
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+#banner_words{
+    text-align: center;
+    color: white;
+    padding-top: 4%;
+}
+
+#upper_text{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-weight: lighter;
+    line-height: 160%;
+ }
 
 /*End of the header*/
 
