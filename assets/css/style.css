@@ -3,7 +3,8 @@
     display: flex;
     padding-left: 10%;
     padding-right: 10%;
-
+    max-width: 1600px;
+    max-height: 925px ;
 }
 
 body {
@@ -15,10 +16,9 @@ body {
 /*Header Things - one to contain and one to manage  */
 /*Upper menu*/
 #nav_container {
-    background-color: #add8e6;
+    background-image: url(../img/jumbo.png);
     padding-top: 1%;
     padding-bottom: 1%;
-    background-image:url(../img/jumbo.png);
 }
 
 .nav_bar {
@@ -31,9 +31,9 @@ body {
 #menu_center{
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    width: 50%;
     color: white;
-    font-size: small;
+    font-size: 8px  ;
 }
 
 #sign_in{
@@ -43,23 +43,25 @@ body {
     color: black;
     font-size:x-small;
     background-color: white;
-    height: 30px;
+    height: 20px;
     border-radius: 30px 30px 30px 30px;
 }
+
+#discord_logo{
+    height: 18px;
+}
+
 
 
 /*Central banner*/
 #banner_container {
-    padding: 25%;
+    background-image: url(../img/jumbo.png);
+    padding: 50%;
     padding-top: 5%;
-    padding-bottom: 5%;
-    ;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.banner {
-    background-color: #ee82ee;
-    height: 160px;
-}
 /*End of the header*/
 
 
@@ -69,6 +71,7 @@ body {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
 .square_containter2 {
     height: 200px;
     padding-top: 5%;
