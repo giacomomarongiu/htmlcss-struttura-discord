@@ -135,7 +135,6 @@ body {
     max-width: 50%;
 }
 .column_35 {
-    flex-grow: 1;
     max-width: 20%;
 }
 
@@ -149,10 +148,20 @@ body {
 }
 
 /*Changing order for switch main and aside content*/
-.column_35_2 {
-    width: 35%;
-    order: -1;
+
+.column_65_2{
+    max-width: 50%;
 }
+
+
+.column_35_2 {
+    flex-grow: 1;
+    max-width: 20%;
+    order: -1;
+    padding-right: 10%;
+}
+
+
 /*Used square_containter2 for the backgroud*/
 #site_down {
     background-color: green;
