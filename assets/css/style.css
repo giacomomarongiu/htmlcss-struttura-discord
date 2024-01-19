@@ -113,30 +113,43 @@ body {
 .square_containter {
     padding-top: 5%;
     padding-bottom: 5%;
-    align-items: center;
+    justify-content: center;
+    align-items: start;
+
 }
 
 .square_containter2 {
     padding-top: 5%;
     padding-bottom: 5%;
+    justify-content: center;
+    align-items: start;
+    background-color: #f6f6f6;
 }
+
+.item{
+    max-width: 100%;
+}
+
 .column_65{
-    flex-grow: 2;
+    padding-right: 10%;
+    max-width: 50%;
 }
 .column_35 {
     flex-grow: 1;
-}
-
-.p_column_35{
-    font-size: 12px;
+    max-width: 20%;
 }
 
 .h3_column_35{
-    font
+    padding-top: 5%;
+    line-height: 120%;
 }
+.p_column_35{
+    font-size: 12px;
+
+}
+
 /*Changing order for switch main and aside content*/
 .column_35_2 {
-    background-color: #ffc0cb;
     width: 35%;
     order: -1;
 }
