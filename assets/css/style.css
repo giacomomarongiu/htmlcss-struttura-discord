@@ -111,23 +111,28 @@ body {
 
 /*Main Things - one to contain and one(or two) to manage  */
 .square_containter {
-    height: 200px;
     padding-top: 5%;
     padding-bottom: 5%;
+    align-items: center;
 }
 
 .square_containter2 {
-    height: 200px;
     padding-top: 5%;
     padding-bottom: 5%;
-    background-color: #d3d3d3;
 }
 .column_65{
-    width: 65%;
+    flex-grow: 2;
 }
 .column_35 {
-    background-color: #ffc0cb;
-    width: 35%;
+    flex-grow: 1;
+}
+
+.p_column_35{
+    font-size: 12px;
+}
+
+.h3_column_35{
+    font
 }
 /*Changing order for switch main and aside content*/
 .column_35_2 {
