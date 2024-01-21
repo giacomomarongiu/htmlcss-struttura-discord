@@ -1,8 +1,9 @@
 /*Classe Utilizzata per centrare tutti gli elementi*/
 .centered {
     display: flex;
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 1680;
+    margin: 0;
+    margin: auto;
 }
 
 body {
@@ -15,8 +16,8 @@ body {
 /*Upper menu*/
 #nav_container {
     background-image: url(../img/jumbo.png);
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .nav_bar {
@@ -119,11 +120,8 @@ body {
 }
 
 .square_containter2 {
-    padding-top: 5%;
-    padding-bottom: 5%;
     justify-content: center;
-    align-items: start;
-    background-color: #f6f6f6;
+    background-color: #f6f6f6;;
 }
 
 .item{
@@ -131,15 +129,14 @@ body {
 }
 
 .column_65{
-    padding-right: 10%;
-    max-width: 50%;
+
+    max-width: 45%;
 }
 .column_35 {
     max-width: 20%;
 }
 
 .h3_column_35{
-    padding-top: 5%;
     line-height: 120%;
 }
 .p_column_35{
@@ -157,26 +154,28 @@ body {
 .column_35_2 {
     flex-grow: 1;
     max-width: 20%;
-    order: -1;
-    padding-right: 10%;
+    order:-1;
 }
 
 
 /*Used square_containter2 for the backgroud*/
 .reverse {
-    flex-direction: column-reverse;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     text-align: center;
+    padding-bottom: 5%;
 }
 
 #item_4{
     font-weight: bold;
 }
 
+#botton_text{
+    width: 80%;
+}
+
 #bottom_button{
     background-color: #8ea1e1;
-    order: -1;
     padding-left: 6%;
     padding-right: 6%;
     color: white;
