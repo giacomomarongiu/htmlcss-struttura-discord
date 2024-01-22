@@ -27,27 +27,27 @@ body {
     width: 100%;
 }
 
-#menu_center{
+#menu_center {
     display: flex;
     justify-content: space-evenly;
     width: 50%;
     color: white;
-    font-size: 8px  ;
+    font-size: 8px;
 }
 
-#sign_in{
+#sign_in {
     border: 0;
     font-family: 'gg sans', sans-serif;
     font-weight: lighter;
     color: black;
-    font-size:x-small;
+    font-size: x-small;
     background-color: white;
     height: 20px;
     border-radius: 30px 30px 30px 30px;
-    
+
 }
 
-#discord_logo{
+#discord_logo {
     height: 18px;
 }
 
@@ -62,30 +62,30 @@ body {
     background-size: cover;
 }
 
-#banner_words{
+#banner_words {
     text-align: center;
     color: white;
     padding-top: 4%;
 
 }
 
-#upper_text{
+#upper_text {
     font-size: 12px;
     padding-top: 10px;
     padding-left: 25%;
     padding-right: 25%;
     font-weight: lighter;
     line-height: 160%;
-    text-size-adjust:contain;
- }
+    text-size-adjust: contain;
+}
 
 #manage_buttons {
     display: flex;
     justify-content: center;
 }
 
-.banner_buttons{
-    border:  0;
+.banner_buttons {
+    border: 0;
     height: 30px;
     border-radius: 30px 30px 30px 30px;
     font-family: 'gg sans', sans-serif;
@@ -93,14 +93,14 @@ body {
 }
 
 
-#banner_button1{
+#banner_button1 {
     background-color: white;
     color: black;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-#banner_button2{
+#banner_button2 {
     background-color: black;
     color: white;
     padding-left: 20px;
@@ -121,32 +121,35 @@ body {
 
 .square_containter2 {
     justify-content: center;
-    background-color: #f6f6f6;;
+    background-color: #f6f6f6;
+    
 }
 
-.item{
+.item {
     max-width: 100%;
 }
 
-.column_65{
+.column_65 {
 
     max-width: 45%;
 }
+
 .column_35 {
     max-width: 20%;
 }
 
-.h3_column_35{
+.h3_column_35 {
     line-height: 120%;
 }
-.p_column_35{
+
+.p_column_35 {
     font-size: 12px;
 
 }
 
 /*Changing order for switch main and aside content*/
 
-.column_65_2{
+.column_65_2 {
     max-width: 50%;
 }
 
@@ -154,7 +157,7 @@ body {
 .column_35_2 {
     flex-grow: 1;
     max-width: 20%;
-    order:-1;
+    order: -1;
 }
 
 
@@ -166,15 +169,15 @@ body {
     padding-bottom: 5%;
 }
 
-#item_4{
+#item_4 {
     font-weight: bold;
 }
 
-#botton_text{
+#botton_text {
     width: 80%;
 }
 
-#bottom_button{
+#bottom_button {
     background-color: #8ea1e1;
     padding-left: 6%;
     padding-right: 6%;
@@ -185,13 +188,17 @@ body {
 
 
 /*Footer Things - one(or two) to contain and one(or two) to manage  */
+.footer_container {
+    background-color: #23272a;
+    width: 100%;
+}
+
 #site_footer {
     display: flex;
     justify-content: end;
     background-color: #23272a;
     color: #7289da;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    width: 80%;
 }
 
 .footer_column {
@@ -206,19 +213,23 @@ body {
     width: 30%;
     align-items: stretch;
 }
+
 /*Last menu bar*/
-#site_footer_line{
+#site_footer_line {
     background-color: #23272a;
+
 }
+
 /*Another containter because of buttons*/
-#site_footer_line_container{
+#site_footer_line_container {
     display: flex;
     justify-content: space-between;
     background-color: #7fffd4;
     width: 100%;
 }
 
-.footer_button{
+.footer_button {
     background-color: #ee82ee;
 }
+
 /*End of the footer*/
